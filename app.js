@@ -19,8 +19,8 @@ const db = mysql.createConnection({
 // Conectar ao banco de dados
 db.connect((err) => {
     if (err) {
-        console.error('Erro ao conectar  ao bando de dados:', err)
-        process.exit(1)
+        console.error('Erro ao conectar  ao bando de dados:', err);
+        process.exit(1);
     }
     console.log('Conectado ao banco de dados MySQL!');
 });
